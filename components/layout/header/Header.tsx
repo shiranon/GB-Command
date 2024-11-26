@@ -5,7 +5,7 @@ import Icon from '@/public/images/icon.png'
 
 export const Header = () => {
   return (
-    <header className="fixed inset-x-0 top-0 z-30 w-screen select-none border-b-2 bg-slate-50 py-2">
+    <header className="absolute inset-x-0 top-0 z-30 w-screen select-none border-b-2 bg-slate-50 py-2">
       <div className="flex items-center justify-between pl-10 pr-2">
         <Link href="/" scroll={false}>
           <div className="flex items-center">

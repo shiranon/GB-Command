@@ -33,10 +33,10 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={`${Koruri.variable} ${MisakiGothic.variable} font-koruri`}
+        className={`${Koruri.variable} ${MisakiGothic.variable} font-koruri min-h-dvh`}
       >
         <Header />
-        <div className="mt-20">
+        <div className="pt-20">
           {children}
         </div>
         <Footer />
